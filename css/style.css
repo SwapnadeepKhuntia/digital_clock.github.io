@@ -1,0 +1,38 @@
+
+/*  */
+#clockcontainer{
+  position: relative;
+  height: 30vw;
+  width: 30vw;
+  background: url(https://e7.pngegg.com/pngimages/164/94/png-clipart-clock-face-digital-clock-graphics-clock-angle-face-thumbnail.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  border-radius: 50%;
+  margin-top: 15vh;
+}
+#hour,#minute,#second{
+    position:absolute;
+    background-color: black;
+    border-radius: 15px;
+    transform-origin: bottom;
+    opacity: 0.8;
+}
+#hour{
+    height: 18%;
+    width: 1.2%;
+    top: 32.5%;
+    left: 49.3%;  
+}
+#minute{
+    height: 23%;
+    width: 0.8%;
+    top: 26.5%;
+    left: 49.5%;  
+}
+#second{
+    height: 32%;
+    width: 0.5%;
+    top: 18.5%;
+    left: 49.77%;
+}
